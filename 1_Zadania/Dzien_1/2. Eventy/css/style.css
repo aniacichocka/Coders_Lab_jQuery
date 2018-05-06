@@ -1,0 +1,78 @@
+body {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.hero-buttons {
+}
+
+dd {
+    margin: 0;
+    padding: 1em 0;
+}
+
+dt {
+    cursor: pointer;
+    font-weight: bold;
+    font-size : 1.5em;
+    line-height: 2em;
+    background: #e3e3e3;
+    border-bottom: 1px solid #c5c5c5;
+    border-top: 1px solid white;
+}
+
+dt:first-child { border-top: none; }
+dt:nth-last-child(2) { border-bottom: none; }
+
+.hide { display: none;}
+
+.cart-item {
+  border:1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  border-radius:5px;
+  margin-bottom: 10px;
+.menu {
+  margin:50px 0;
+}
+
+.login {
+  text-align: left;
+  border: 1px solid #4f4f4f;
+  padding: 20px;
+}
+
+.shopping{
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 30px;
+
+}
+.shopping .added{
+  color: green;
+}
+.shopping h3{
+  text-align: center;
+}
+.cart-item{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+.cart-item > *{
+  display: inline-block;
+}
+.cart-item span{
+  width: 70%;
+}
+.cart-item button{
+  width: 30%;
+}
